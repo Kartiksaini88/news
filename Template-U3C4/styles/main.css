@@ -1,0 +1,33 @@
+#main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:40px
+}
+img{
+    width:490px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#sidebar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+input{
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 10px;
+    text-align: center;
+}
+h2{
+    font-family: monospace;
+    font-size: 30px;
+}
+p{
+    font-family: cursive;
+    font-size: 20px;
+}
